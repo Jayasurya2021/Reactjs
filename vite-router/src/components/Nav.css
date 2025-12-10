@@ -1,0 +1,71 @@
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+
+}
+
+.childeren {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  border-radius: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  background-color: aquamarine;
+}
+.logo{
+  color: rgb(9, 103, 71);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+.childeren li {
+  padding: 5px;
+  border-radius: 18px;
+  color: black;
+  list-style: none;
+  padding-left: 30px;
+  padding-right: 30px;
+
+
+
+}
+.childeren a{
+  text-decoration: none;
+}
+.signupbtn{
+
+  padding: 10px;
+  border-radius: 18px;
+  color: black;
+  list-style: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  background-color: beige;
+}
+.btn{
+
+  padding: 9px;
+  border-radius: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  background-color: aquamarine;
+  margin-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+a.active{
+  background-color:rgb(96, 241, 193) ;
+  border-radius: 18px;
+}
+
+.signup{
+  display: flex;
+}
