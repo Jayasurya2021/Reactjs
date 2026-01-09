@@ -1,4 +1,3 @@
-import Datas from './assets/components/Datas'
 
 function App() {
 
@@ -6,7 +5,7 @@ function App() {
   return (
     <>
 
- <Datas/>
+
     </>
   )
 }
